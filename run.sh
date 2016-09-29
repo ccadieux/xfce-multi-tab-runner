@@ -1,9 +1,12 @@
 #!/bin/bash
-cd "test/"
+project="patient-ui"
+if !([ -d $project ]); then
+  echo "Project directory doesn't exist!"
+  exit
+fi
 
-echo "options"
+cd $project
 options=()
-echo "tab"
 tab=""
 for file in *; do
     [[ -d $file ]] && continue # not a file
