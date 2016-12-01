@@ -1,5 +1,5 @@
 #!/bin/bash
-project="patient-ui"
+project="provider-ui"
 if !([ -d $project ]); then
   echo "Project directory doesn't exist!"
   exit
