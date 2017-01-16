@@ -1,5 +1,5 @@
 #!/bin/bash
-project="provider-ui"
+project="sclera"
 if !([ -d $project ]); then
   echo "Project directory doesn't exist!"
   exit
